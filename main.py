@@ -91,7 +91,7 @@ class mode():
         urldev = f"{mode.RUTE}/{pry}/{py[0]}/{files[0]}"        
         mode.TIMER
         print(mode.GREEN + "[+] Environment ready \n" + mode.MAGENTA+"Opening Nvim")
-        mode.barra_progreso_flecha(total=40, duracion=5)
+        mode.load(total=40, duracion=5)
         mode.OpenNvim(rute = urldev)
     def returnP():
         os.system("clear")
@@ -118,7 +118,7 @@ class mode():
             print(mode.MAGENTA + "\n[+] Cargando el Proyecto")
             print(mode.MAGENTA + "[+] Opening NeoVim ")
 
-            mode.barra_progreso_flecha(total=40, duracion=5)
+            mode.load(total=40, duracion=5)
 
             mode.OpenNvim(proyectUrl)
         else:
