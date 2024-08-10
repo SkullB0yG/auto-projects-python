@@ -17,7 +17,7 @@ This script is designed to streamline your Python project management process by 
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/yourusername/project-management-script.git
+    git clone https://github.com/SkullB0yG/auto-projects-python.git
     cd project-management-script
     ```
 
