@@ -8,8 +8,8 @@ from colorama import Fore, init
 class mode():
     
     # rutas del sitema
-    HOME = "/home/skull"
-    RUTE = "/home/skull/dev"
+    HOME = "/home/user"
+    RUTE = "/home/user/dev"
 
     # colores para perzonalizar
     init(autoreset=True)
